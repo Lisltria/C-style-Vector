@@ -1,9 +1,4 @@
-# C-style-Vector
-Title         : Manual 
-Author        : Pip
-Logo          : Pipipip
-
-[TITLE]
+<center><font size = 10>**Manual**</font></center>
 
 # C-style Vector  
 
@@ -96,10 +91,10 @@ strcpy(VGS2(xy_str, i, j), tmp);
 ```
 
 ### 数据存放指针
-如果需要获得各种类型数组的头指针,对于整型和浮点型,使用***ptr->data***即可.
+如果需要获得各种类型数组的头指针,对于整型和浮点型,使用 ***ptr->data*** 即可.
 
-对于字符串数组来说,***ptr->data***为字符串头指针的数组,如需获取某一个字符串的地址,需要
-采用格式:***ptr->data[i]***
+对于字符串数组来说, ***ptr->data*** 为字符串头指针的数组,如需获取某一个字符串的地址,需要
+采用格式: ***ptr->data[i]*** 
 
 # 修改rt_model_v10的注意事项
 
